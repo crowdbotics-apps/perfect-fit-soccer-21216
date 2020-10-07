@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'perfect_fit_soccer_21216.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "perfect_fit_soccer_21216.settings")
 
 application = get_wsgi_application()
